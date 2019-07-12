@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Супермаркет дверей</title>
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="header-wrap">
+					<div class="logo-box">
+						<img src="img/logo.png" alt="Logo">
+					</div>
+
+					<!-- Кнопка бургер в мобильном меню (< 992px) -->
+					<div class="toggle_menu_button">
+						<span class="menu_line1"></span>
+						<span class="menu_line2"></span>
+						<span class="menu_line3"></span>
+					</div>
+
+					<!-- Mobile menu (< 992px) -->
+					<nav class="mobile_menu">
+						<!-- Top navigation (> 991px) -->
+						<ul class="top-nav">
+							<li><a class="active" href="#">Главная</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Галерея</a></li>
+							<li><a href="#">3D тур</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+
+						<div class="close_menu_button"></div>
+					</nav>
+
+					<!-- Фон окна в мобильном меню (< 992px) -->
+					<div class="mask_bg" style="display: none;">&nbsp;</div>
+
+					<div class="phone-numbers">
+						<div>(096) 000 00 00</div>
+						<div>(099) 000 00 00</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="hero-section">
+		<img src="img/home_image.png" alt="Hero image">
+		<div class="hero-text-box">
+			<h1 class="main-heading">Двери</h1>
+			<div class="type-of-doors-btns">
+				<button class="door-type-btn between-rooms">Межкомнатные</button>
+				<button class="door-type-btn entry btn-active">Входные</button>
+			</div>
+			<div class="features-box">
+				<div class="feature-item feature-item-1">
+					<div class="quantity-feature">450м<sup>2</sup></div>
+					<div class="text-feature">Выставочный зал</div>
+				</div>
+				
+				<div class="feature-item feature-item-2">
+					<div class="quantity-feature">200<span>+</span></div>
+					<div class="text-feature">Видов дверей</div>
+				</div>
+
+				<div class="feature-item feature-item-3">
+					<div class="quantity-feature">15</div>
+					<div class="text-feature">Производителей</div>
+				</div>
+			</div>
+			<div class="proof-text-box"><span class="proof-text">качествено и быстро</span></div>
+		</div>
+	</div>
+
+	<!-- GALLERY SECTION -->
+	<section class="gallery">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading-of-sections">Галерея</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-6 col-xl-4 grid-column-align-center">
+					<div class="gallery-item gallery-item-1">
+						<a href="#" class="gallery-entry">
+							<h4>Входные двери</h4>
+							<img src="img/entry_doors.png" alt="Входные двери">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6 col-xl-4 grid-column-align-center">
+					<div class="gallery-item gallery-item-2">
+						<a href="#" class="gallery-between">
+							<h4>Межкомнатные двери</h4>
+							<img src="img/between_rooms.png" alt="Межкомнатные двери">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6 col-xl-4 grid-column-align-center">
+					<div class="gallery-item gallery-item-3">
+						<a href="#" class="gallery-windows">
+							<h4>Металлопластиковые окна</h4>
+							<img src="img/windows.png" alt="Металлопластиковые окна">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- STAGES SECTION -->
+	<section class="stages">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading-of-sections">Этапы работы</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-1">
+						<img src="img/icons/consultation-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-1"></span>
+						<span class="stage-order stage-order-1">1</span>
+						<p class="stage-text">Консультация<br>специалиста</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-2">
+						<img src="img/icons/measurer-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-2"></span>
+						<span class="stage-order stage-order-2">2</span>
+						<p class="stage-text">Замер<br>у клиента</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-3">
+						<img src="img/icons/contract-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-3"></span>
+						<span class="stage-order stage-order-3">3</span>
+						<p class="stage-text">Подписание<br>договора</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-4">
+						<img src="img/icons/payment-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-4"></span>
+						<span class="stage-order stage-order-4">4</span>
+						<p class="stage-text">Оплата<br>полностью или авансом</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-5">
+						<img src="img/icons/produce-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-5"></span>
+						<span class="stage-order stage-order-5">5</span>
+						<p class="stage-text">Изготовление<br>дверей</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-6">
+						<img src="img/icons/delivery-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-6"></span>
+						<span class="stage-order stage-order-6">6</span>
+						<p class="stage-text">Доставка<br>+установка</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-7">
+						<img src="img/icons/guarantee-icon.png" alt="Иконка этапа">
+						<span class="stage-line stage-line-7"></span>
+						<span class="stage-order stage-order-7">7</span>
+						<p class="stage-text">Гарантия<br>и сервис</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="stage-item stage-item-8 last">
+						<img src="img/icons/guarantee-icon.png" alt="Иконка этапа">
+						<span class="stage-order stage-order-8">8</span>
+						<p class="stage-text">Постсопровождение<br>и довольный клиент</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- INFORMATION SECTION -->
+	<section class="info">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading-of-sections">Информация</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="info-item info-item-1">
+						<h3 class="info-heading info-heading-1">Акции</h3>
+						<p class="info-text info-text-1">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+						<div class="more-btn more-btn-1">
+							<a href="#" class="more-link more-link-1">Перейти <span>&rarr;</span></a>
+						</div>
+						<span class="number-of-item">01</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="info-item info-item-2">
+						<h3 class="info-heading info-heading-2">Вакансии</h3>
+						<p class="info-text info-text-2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+						<div class="more-btn more-btn-2">
+							<a href="#" class="more-link more-link-2">Перейти <span>&rarr;</span></a>
+						</div>
+						<span class="number-of-item">02</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="info-item info-item-3">
+						<h3 class="info-heading info-heading-3">Новинки</h3>
+						<p class="info-text info-text-3">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+						<div class="more-btn more-btn-3">
+							<a href="#" class="more-link more-link-3">Перейти <span>&rarr;</span></a>
+						</div>
+						<span class="number-of-item">03</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xl-3">
+					<div class="info-item info-item-4">
+						<h3 class="info-heading info-heading-4">Скидки</h3>
+						<p class="info-text info-text-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+						<div class="more-btn more-btn-4">
+							<a href="#" class="more-link more-link-4">Перейти <span>&rarr;</span></a>
+						</div>
+						<span class="number-of-item">04</span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="view-all-items">
+					<a href="#" class="view-all-link">Показать все</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 3D-TUR SECTION -->
+	<section class="three-d">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="three-d-tur">
+						<img src="img/3d-tur.png" alt="3D Тур по галереи">
+						<div class="three-d-tur-overlay"></div>
+						<div class="spinner-box">
+							<a href="https://tur.3dtur.net/?m=JGPnGQ6hosj" class="three-d-spinner">3D тур</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- QUESTION & ANSWER SECTION -->
+	<section class="q-a">
+		<div class="container">
+			<div class="row">
+				<h2 class="heading-of-sections">Вопросы и ответы</h2>
+			</div>
+			<div class="row">
+				<div class="col-xl-6">
+					<div class="q-a-item q-a-1">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-1">
+						<label class="btn-text-answer btn-answer-1" for="answer-1">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-1">&#8722;</label>
+
+						<div class="question">Что входит в комлект двери?</div>
+						<div class="show-hide-answer cover-next-1">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+					<div class="q-a-item q-a-2">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-2">
+						<label class="btn-text-answer btn-answer-2" for="answer-2">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-2">&#8722;</label>
+
+						<div class="question">Для чего используют утеплитель в коробке?</div>
+						<div class="show-hide-answer cover-next-2">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+					<div class="q-a-item q-a-3">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-3">
+						<label class="btn-text-answer btn-answer-3" for="answer-3">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-3">&#8722;</label>
+
+						<div class="question">Занимаетесь ли вы установкой дверей?</div>
+						<div class="show-hide-answer cover-next-3">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6">
+					<div class="q-a-item q-a-4">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-4">
+						<label class="btn-text-answer btn-answer-4" for="answer-4">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-4">&#8722;</label>
+
+						<div class="question">Какие двери подходят в ванную?</div>
+						<div class="show-hide-answer cover-next-4">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+					<div class="q-a-item q-a-5">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-5">
+						<label class="btn-text-answer btn-answer-5" for="answer-5">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-5">&#8722;</label>
+
+						<div class="question">Как проверить качество дверей?</div>
+						<div class="show-hide-answer cover-next-5">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+					<div class="q-a-item q-a-6">
+
+						<input class="open-answer__checkbox" type="checkbox" id="answer-6">
+						<label class="btn-text-answer btn-answer-6" for="answer-6">&#43;</label>
+						<label class="btn-text-answer opened" for="answer-6">&#8722;</label>
+
+						<div class="question">Зачем вы сделали себе сайт?</div>
+						<div class="show-hide-answer cover-next-6">
+							<p>Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.Не следует, однако забывать, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MAP SECTION -->
+	<section id="map" class="map"></section>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class=" col-md-6 col-xl-4">
+					<div class="video-item video-item-1">
+						<iframe src="https://www.youtube.com/embed/796hpAfegZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>	
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="video-item video-item-2">
+						<iframe src="https://www.youtube.com/embed/796hpAfegZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>	
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="video-item video-item-3">
+						<iframe src="https://www.youtube.com/embed/796hpAfegZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>	
+				</div>
+			</div>
+			<div class="footer-info">
+				<div class="row">
+					<div class="col-lg-6 col-xl-3">
+						<div class="phones">
+							<div>(099) 000 00 00</div>
+							<div>(096) 000 00 00</div>
+							<a href="#" class="callback">Заказать обратный звонок</a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-3">
+						<div class="address-block">
+							<div class="address">г.Киев, ул. Улица д.1, оф.111</div>
+							<div class="email">mail@gmail.com</div>
+							<div class="graphics">пн.-сб. 9.00-19.00</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-xl-3">
+						<ul class="footer-menu-list">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-xl-3">
+						<div class="social">
+							<h5>Мы в соцсетях:</h5>
+							<div class="social-icon-block">
+								<a href="#"><img src="img/icons/instagram.png" alt="Инстаграм"></a>
+								<a href="#"><img src="img/icons/facebook.png" alt="Фейсбук"></a>
+								<a href="#"><img src="img/icons/youtoube.png" alt="Ютуб"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="row">
+					<div class="col-md-6 col-xl-6">
+						<div class="copyright">
+							Copyright &copy; Все права зачищены
+						</div>
+					</div>
+					<div class="col-md-6 col-xl-6">
+						<div class="designer">
+							<em>Создание сайтов на заказ</em>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		function myMap() {
+			var mapProp = {
+			    center:new google.maps.LatLng(48.7647922,30.218247),
+			    zoom:13
+			};
+			var map = new google.maps.Map(document.getElementById("map"), mapProp);
+		}
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX_blT7CAKpa9NWEYfwUbP5wH7Vd155vM&callback=myMap"
+  type="text/javascript"></script>
+
+  <script src="libs/jquery-3-3-1.min.js"></script>
+  <script src="libs/TweenMax.min.js"></script>
+  <script src="libs/TextPlugin.min.js"></script>
+	<script src="libs/ScrollMagic.min.js"></script>
+	<script src="libs/animation.gsap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+
+</html>
